@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DP200 TestNG Suite">
+
+	<parameter name="language" value="English-US"/>
+	<test name="Start Applications">
+		<classes>
+			<class name="screenshots.StartUp"/>
+		</classes>
+	</test>
+	
+	<test name="ScreenShot Capture Test">
+		<classes>
+			<class name="screenshots.CaptureSettings"/>
+		</classes>
+	</test>
+</suite>

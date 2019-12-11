@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DP200 TestNG Suite" duration-ms="32236" started-at="2019-03-08T01:26:05Z" finished-at="2019-03-08T01:26:37Z">
+    <groups>
+    </groups>
+    <test name="Start Applications" duration-ms="0" started-at="2019-03-08T01:26:05Z" finished-at="2019-03-08T01:26:05Z">
+    </test> <!-- Start Applications -->
+    <test name="ScreenShot Capture Test" duration-ms="31747" started-at="2019-03-08T01:26:05Z" finished-at="2019-03-08T01:26:37Z">
+      <class name="screenshots.CaptureSettings">
+        <test-method status="PASS" signature="CaptureSettings_InsertTray()[pri:1, instance:screenshots.CaptureSettings@59f99ea]" name="CaptureSettings_InsertTray" duration-ms="3726" started-at="2019-03-08T01:26:05Z" finished-at="2019-03-08T01:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureSettings_InsertTray -->
+        <test-method status="PASS" signature="CaptureSettings_OutputFolder()[pri:4, instance:screenshots.CaptureSettings@59f99ea]" name="CaptureSettings_OutputFolder" duration-ms="27984" started-at="2019-03-08T01:26:09Z" finished-at="2019-03-08T01:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureSettings_OutputFolder -->
+      </class> <!-- screenshots.CaptureSettings -->
+      <class name="screenshots.StartUp">
+        <test-method status="PASS" signature="location(java.lang.String)[pri:0, instance:screenshots.StartUp@735b5592]" name="location" is-config="true" duration-ms="47" started-at="2019-03-08T01:25:50Z" finished-at="2019-03-08T01:25:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[English-US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- location -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:screenshots.StartUp@735b5592]" name="setup" is-config="true" duration-ms="11248" started-at="2019-03-08T01:25:50Z" finished-at="2019-03-08T01:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:screenshots.StartUp@735b5592]" name="startBrowser" is-config="true" duration-ms="3653" started-at="2019-03-08T01:26:01Z" finished-at="2019-03-08T01:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:screenshots.StartUp@735b5592]" name="close" is-config="true" duration-ms="10295" started-at="2019-03-08T01:26:37Z" finished-at="2019-03-08T01:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:screenshots.StartUp@735b5592]" name="closeBrowser" is-config="true" duration-ms="825" started-at="2019-03-08T01:26:47Z" finished-at="2019-03-08T01:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- screenshots.StartUp -->
+    </test> <!-- ScreenShot Capture Test -->
+  </suite> <!-- DP200 TestNG Suite -->
+</testng-results>

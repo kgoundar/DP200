@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="screenshots.StartApplication">
+        <methods>
+          <include name="AppStart"/>
+        </methods>
+      </class> <!-- screenshots.StartApplication -->
+      <class name="screenshots.Common">
+        <methods>
+          <include name="takeFullScreenShot"/>
+          <include name="startBrowser"/>
+          <include name="setup"/>
+          <include name="location"/>
+          <include name="takeScreenshot"/>
+        </methods>
+      </class> <!-- screenshots.Common -->
+      <class name="screenshots.Checking">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- screenshots.Checking -->
+      <class name="screenshots.Service">
+        <methods>
+          <include name="createAndStopService"/>
+          <include name="createAndStartService"/>
+          <include name="createDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- screenshots.Service -->
+      <class name="screenshots.ScanApp">
+        <methods>
+          <include name="selectPrevSlideOnly"/>
+          <include name="selectSlide1"/>
+          <include name="selectSlide6"/>
+          <include name="selectSlide5"/>
+          <include name="waitScanning"/>
+          <include name="browseOutputFolder"/>
+          <include name="deleteProfile"/>
+          <include name="turnondeidentify"/>
+          <include name="selectSlides3and4"/>
+          <include name="startBrowser"/>
+          <include name="createProfile"/>
+          <include name="clickScan"/>
+          <include name="deselectSlides"/>
+          <include name="aoiDetectionMethod"/>
+          <include name="selectMag"/>
+          <include name="selectSpacing"/>
+          <include name="clickApplicationMenu"/>
+          <include name="waitThumbnailing"/>
+          <include name="clickThumbnail"/>
+          <include name="clickExit"/>
+          <include name="selectFocusLayers"/>
+          <include name="setup"/>
+          <include name="closeBrowseWindow"/>
+          <include name="selectNextSlide"/>
+          <include name="location"/>
+          <include name="selectSlide4"/>
+          <include name="closeBanners"/>
+          <include name="selectSlide2"/>
+          <include name="selectSlide3"/>
+        </methods>
+      </class> <!-- screenshots.ScanApp -->
+      <class name="screenshots.ScannerSimulator">
+        <methods>
+          <include name="selectSingleSlides"/>
+          <include name="clickEject"/>
+          <include name="clickRemove"/>
+          <include name="clickInsert"/>
+          <include name="selectDoubleSlideType"/>
+          <include name="selectDoubleSlides"/>
+          <include name="selectSingleSlideType"/>
+          <include name="closeSimulator"/>
+        </methods>
+      </class> <!-- screenshots.ScannerSimulator -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

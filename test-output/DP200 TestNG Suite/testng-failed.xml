@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DP200 TestNG Suite]">
+  <parameter name="language" value="French"/>
+  <test thread-count="5" name="ScreenShot Capture Test(failed)">
+    <classes>
+      <class name="screenshots.CaptureSettings">
+        <methods>
+          <include name="CaptureSettings_InsertTray"/>
+          <include name="CaptureSettings_OutputFolder"/>
+        </methods>
+      </class> <!-- screenshots.CaptureSettings -->
+    </classes>
+  </test> <!-- ScreenShot Capture Test(failed) -->
+</suite> <!-- Failed suite [DP200 TestNG Suite] -->
